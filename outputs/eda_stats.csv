@@ -1,0 +1,11 @@
+,value
+Documents in raw corpus,10788.0
+Documents after filtering,3499.0
+Total tokens (after stop-word removal),531990.0
+Vocabulary size (unique tokens),21174.0
+Mean words / doc,259.1
+Median words / doc,203.0
+Max words / doc,1667.0
+Mean sentences / doc,10.3
+Mean words / sentence,25.1
+Distinct categories,72.0

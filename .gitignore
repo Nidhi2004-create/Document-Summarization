@@ -33,11 +33,11 @@ Thumbs.db
 *.suo
 *.user
 
-# Data files (optional - remove if you want to track data)
-*.csv
-*.parquet
-*.pkl
-*.h5
+# Data files - tracked intentionally
+# *.csv
+# *.parquet
+# *.pkl
+# *.h5
 
 # Spark temp files
 derby.log
