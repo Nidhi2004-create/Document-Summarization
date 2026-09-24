@@ -1,0 +1,45 @@
+# Virtual Environment
+venv/
+env/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs & output
+*.log
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.user
+
+# Data files (optional - remove if you want to track data)
+*.csv
+*.parquet
+*.pkl
+*.h5
+
+# Spark temp files
+derby.log
+metastore_db/
+spark-warehouse/

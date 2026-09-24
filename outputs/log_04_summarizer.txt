@@ -1,0 +1,13 @@
+
+[M3] GBT sentence-importance model  |  test AUC = 0.905
+Feature importances: sent_idx=0.69, tfidf_pct=0.10, s_words=0.06, n_sentences=0.05, cap_ratio=0.03, rel_pos=0.03, tfidf_norm=0.02, n_digits=0.02
+Spark pipeline (M1-M3, all documents) finished in 71.3s
+Evaluation set: 898 test documents
+
+=== Model comparison (Reuters TEST split) ===
+       Model  ROUGE1_R  ROUGE2_R  ROUGEL_R  KeyTermCoverage  AvgSummaryWords  CompressionRatio
+      Lead-3     0.739     0.261     0.640            0.772           82.157             0.404
+Spark TF-IDF     0.732     0.258     0.635            0.859           94.855             0.456
+Spark ML GBT     0.745     0.264     0.645            0.834           91.727             0.447
+    TextRank     0.645     0.202     0.555            0.829           87.829             0.421
+Runtime: Spark M1-M3 on 3,483 docs = 71.3s | TextRank on 898 docs = 1.2s

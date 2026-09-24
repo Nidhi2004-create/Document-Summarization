@@ -1,0 +1,26 @@
+=== EDA summary statistics ===
+Documents in raw corpus                    10788.0
+Documents after filtering                   3483.0
+Total tokens (after stop-word removal)    530968.0
+Vocabulary size (unique tokens)            21152.0
+Mean words / doc                             259.8
+Median words / doc                           204.0
+Max words / doc                             1667.0
+Mean sentences / doc                          10.3
+Mean words / sentence                         25.2
+Distinct categories                           72.0
+
+Top 10 words:
+   word  count
+   said  18558
+    mln   6758
+    pct   6449
+   dlrs   5969
+   year   4557
+billion   3491
+company   2915
+   last   2648
+  trade   2383
+    oil   2276
+
+Figures saved to /home/claude/project/outputs

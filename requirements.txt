@@ -1,0 +1,10 @@
+pyspark>=3.5
+nltk
+pandas
+matplotlib
+scikit-learn
+rouge-score
+pillow
+openai      # optional: GPT chatbot backend
+boto3       # optional: AWS S3 storage
+# transformers, torch  # optional: 04b_abstractive_bart_optional.py

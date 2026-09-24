@@ -1,0 +1,7 @@
+Saved 10,788 documents to /home/claude/project/data/reuters_raw.csv
+    doc_id category                                             title
+test_14826    trade  Asian Exporters Fear Damage From U.S.-Japan Rift
+test_14828    grain China Daily Says Vermin Eat 7-12 Pct Grain Stocks
+test_14829    crude Japan To Revise Long-Term Energy Demand Downwards
+test_14832     corn        Thai Trade Deficit Widens In First Quarter
+test_14833 palm-oil           Indonesia Sees Cpo Price Rising Sharply

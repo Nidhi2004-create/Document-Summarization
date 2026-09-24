@@ -1,0 +1,28 @@
+Raw documents loaded : 10,788
+root
+ |-- doc_id: string (nullable = true)
+ |-- split: string (nullable = true)
+ |-- category: string (nullable = true)
+ |-- title: string (nullable = true)
+ |-- text: string (nullable = true)
+
+Documents kept after cleaning/filtering : 3,483
++--------------+--------+-------+-----------+--------------+
+|        doc_id|category|n_words|n_sentences|n_tokens_clean|
++--------------+--------+-------+-----------+--------------+
+| training_3039|     acq|    146|          6|            86|
+|    test_17669|   crude|    101|          5|            61|
+|training_13482|   trade|    109|          6|            56|
+| training_5835|   sugar|    169|         10|            98|
+|    test_14863|     gas|    252|          8|           149|
+|training_10867|     acq|    143|          5|            87|
+| training_6346|     acq|    719|         33|           441|
+| training_6945|money-fx|    199|         10|           103|
++--------------+--------+-------+-----------+--------------+
+only showing top 8 rows
++----------+------------+---------+--------------+
+|mean_words|median_words|max_words|mean_sentences|
++----------+------------+---------+--------------+
+|     259.8|         204|     1667|          10.3|
++----------+------------+---------+--------------+
+
